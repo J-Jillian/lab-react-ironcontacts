@@ -74,8 +74,8 @@ const deleteCelebrity = celebrityId => {
 <td ><img alt="celebrity-photo" src={elem.pictureUrl} width="100px"/></td>
 <td width="20px;" height="40px;"><p>{elem.name}</p></td>
 <td width="20px;" height="40px;"><p>{elem.popularity}</p></td>
-<button type="button" onClick={deleteCelebrity}>delete</button>
-
+{/* <button type="button" onClick={deleteCelebrity}>delete</button> */}
+{/* {() => deleteCelebrity({key})} */}
 
 <td width="20px;" height="40px;"><p>{elem.wonOscar ? '🏆': ""}</p></td>
 <td width="20px;" height="40px;"><p>{elem.wonEmmy ? '🏆': ""}</p></td>
@@ -100,19 +100,3 @@ const deleteCelebrity = celebrityId => {
 }
 
 export default App;
-
-
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
